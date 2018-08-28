@@ -1,0 +1,23 @@
+{
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Fill Color from Clipboard",
+      "identifier" : "fillColorFromClipboard",
+      "handler": "fillColorFromClipboard",
+      "shortcut" : "ctrl shift l"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "fillColorFromClipboard"
+    ]
+  },
+  "author" : "Jordon Bedwell",
+  "authorEmail" : "jordon@envygeeks.io",
+  "identifier" : "io.envygeeks.fill-color-from-clipboard",
+  "homepage": "http://github.com/envygeeks/fill-color-from-clipboard",
+  "description" : "Fill the background color from the clipboard.",
+  "name" : "Fill Color From Clipboard",
+  "version" : "1.0.0"
+}
